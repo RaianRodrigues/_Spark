@@ -1,5 +1,7 @@
 # Spark
 
+Download: [Marketplace](https://marketplace.visualstudio.com/items?itemName=SunnyDev.sparkex).
+
 ## Introduction
 
 This extension allows you to efficiently create, display, and delete code snippets. Snippets are small pieces of code that you can store and reuse whenever necessary.
