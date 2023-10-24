@@ -1,71 +1,48 @@
-# spark README
+# Spark
 
-This is the README for your extension "spark". After writing up a brief description, we recommend including the following sections.
+## Introduction
 
-## Features
+This extension allows you to efficiently create, display, and delete code snippets. Snippets are small pieces of code that you can store and reuse whenever necessary.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Commands
 
-For example if there is an image subfolder under your extension project workspace:
+The "Spark" extension provides the following commands:
 
-\!\[feature X\]\(images/feature-x.png\)
+### 1. Create Snippet
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Command**: `Create snippet`
+- **Description**: This command allows you to create a new snippet from selected code in your file. You will be prompted to provide a name for the snippet.
 
-## Requirements
+### 2. Show Snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Command**: `Show snippet`
+- **Description**: This command displays a list of all the snippets you have saved. You can select a snippet from the list and insert it into your active file.
 
-## Extension Settings
+### 3. Delete Snippet
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+- **Command**: `Delete snippet`
+- **Description**: This command deletes an existing snippet. You can select the snippet you want to delete from the list, and it will be permanently removed.
 
-For example:
+## How to Use
 
-This extension contributes the following settings:
+To use the "Spark" extension, follow these steps:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+1. Select the code you want to save as a snippet.
 
-## Known Issues
+2. Execute the "Create Snippet" command by clicking on the option in the menu.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+3. Provide a name for the snippet.
 
-## Release Notes
+4. The snippet will be stored and can be accessed later.
 
-Users appreciate release notes as you update your extension.
+5. Use the "Show snippet" command to select and insert snippets into your active code.
 
-### 1.0.0
+6. Use the "Delete Snippet" command to remove snippets that are no longer needed.
 
-Initial release of ...
+## Contributions
 
-### 1.0.1
+This project is open to contributions. If you want to improve the "Spark" extension, feel free to create pull requests or report issues on the GitHub repository.
 
-Fixed issue #.
+## License
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project is licensed under the MIT License. Refer to the LICENSE file for details.

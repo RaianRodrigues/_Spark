@@ -1,5 +1,6 @@
 {
-  "name": "spark",
+  "name": "sparkex",
+  "publisher": "SunnyDev",
   "displayName": "Spark",
   "description": "An extension that helps you save your code snippets easily",
   "version": "0.0.1",
@@ -31,12 +32,20 @@
         {
           "command": "spark.createSnippet",
           "group": "1_snippet",
-          "when": "editorTextFocus"
+          "when": "editorTextFocus && editorHasSelection"
         }
       ]
     }
   },
-  "icon": "assets/Logo.png",
+  "icon": "Logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaianRodrigues/_Spark"
+  },
+  "keywords": [
+    "snippets",
+    "CodeSnippets"
+  ],
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",

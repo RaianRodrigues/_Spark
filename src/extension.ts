@@ -8,10 +8,9 @@ interface Snippets {
 
 export function activate(context: vscode.ExtensionContext) {
 
-	const editor = vscode.window.activeTextEditor;
-
 	let createSnippetDisposable = vscode.commands.registerCommand('spark.createSnippet', async () => {
 
+		const editor = vscode.window.activeTextEditor;
 
 		if (!editor) {
 
@@ -54,6 +53,8 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	let insertSnippetDisposable = vscode.commands.registerCommand('spark.showSnippets', async () => {
+		
+		const editor = vscode.window.activeTextEditor;
 
 		if (!editor) {
 
@@ -121,7 +122,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 		} else {
 
-			vscode.window.showErrorMessage('No snippets to delete.',);
+			vscode.window.showErrorMessage('No snippets to delete.');
 
 		}
 
