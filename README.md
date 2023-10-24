@@ -31,13 +31,15 @@ To use the "Spark" extension, follow these steps:
 
 2. Execute the "Create Snippet" command by clicking on the option in the menu.
 
+![Command Example](https://github.com/RaianRodrigues/_Spark/blob/main/commandExample.png?raw=true)
+
 3. Provide a name for the snippet.
 
 4. The snippet will be stored and can be accessed later.
 
-5. Use the "Show snippet" command to select and insert snippets into your active code.
+5. To insert saved snippets into your active code, use the "Show snippet" command. You can run it by pressing `Ctrl+Shift+P`, typing "Show snippet" at the prompt, or using `F1` and typing the same command.
 
-6. Use the "Delete Snippet" command to remove snippets that are no longer needed.
+6. To delete unnecessary snippets, use the "Delete snippet" command. You can run it by pressing `Ctrl+Shift+P`, typing "Delete snippet" at the prompt, or using `F1` and typing the same command.
 
 ## Contributions
 
